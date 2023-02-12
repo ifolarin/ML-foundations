@@ -13,3 +13,6 @@ USER $NB_USER
 # Install PyTorch:
 # RUN pip install torch==1.4.0
 RUN pip install torch
+
+# Install statsmodel
+RUN pip install git+https://github.com/statsmodels/statsmodels.git
